@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dfd3421-6dce-477b-97a8-93c196ec2079" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/forLessons/fixtures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forLessons/icons/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forLessons/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forLessons/icons/shopping-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forLessons/icons/star-gold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forLessons/icons/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forLessons/icons/thumb-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forLessons/icons/thumb-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forLessons/normalized-fixtures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Menu/Menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Reviews/Reviews.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/fixtures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Restaurants.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ADBDdYWjusNFAy5axUoFWWa3e3" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/s-archie-dev/Projects/learn-js/react-2022-06-02/src/constants",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/s-archie-dev/Projects/learn-js/react-2022-06-02/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/constants" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dfd3421-6dce-477b-97a8-93c196ec2079" name="Changes" comment="" />
+      <created>1654534156422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654534156422</updated>
+      <workItem from="1654534157928" duration="9231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
