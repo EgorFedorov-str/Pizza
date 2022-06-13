@@ -1,11 +1,13 @@
 import React from "react";
+import Product from "../Product/Product";
+import styles from "./styles.module.css";
 
 const Menu = ({ menu }) => (
-  <ul>
+  <div className={styles.root}>
     {menu.map(({ id, name }) => (
-      <li key={id}>{name}</li>
+      <Product key={id} name={name} className={styles.product} />
     ))}
-  </ul>
+  </div>
 );
 
 export default Menu;

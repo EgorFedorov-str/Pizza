@@ -1,0 +1,21 @@
+.root {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.root:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.root:disabled {
+    opacity: 1;
+    cursor: default;
+}
+
+.isActive {
+    border: 1px solid red;
+}

@@ -1,31 +1,53 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Menu from "../components/Menu/Menu";
 import Reviews from "../components/Reviews/Reviews";
 
 import styles from "./styles.module.css";
+import Tabs from "../components/Tabs/Tabs";
+import Restaurant from "../components/Restaurant/Restaurant";
 
 const Restaurants = ({ restaurants }) => {
-  const [activeRestaurant, setActiveRestaurant] = useState({ active: 0 });
+  const [activeRestaurantIndex, setActiveRestaurantIndex] = useState(0);
 
-  const openNextRestaurant = () => {
-    setActiveRestaurant({ active: activeRestaurant.active + 1 });
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const onScroll = () => {
+      console.log("scroll");
+    };
+
+    ref.current?.addEventListener("scroll", onScroll);
+
+    return () => {
+      ref.current?.removeEventListener("scroll", onScroll);
+    };
+  }, []);
+
+  const selectRestaurant = (index) => {
+    if (index === activeRestaurantIndex) {
+      setActiveRestaurantIndex(null);
+    } else {
+      setActiveRestaurantIndex(index);
+    }
   };
 
   if (!restaurants.length) {
     return null;
   }
 
+  const tabs = restaurants.map(({ name }) => name);
+
   return (
-    <div className={styles.root}>
+    <div ref={ref} className={styles.root}>
       <h2>Restaurants</h2>
-      <button onClick={openNextRestaurant}>Next Restaurant</button>
-      <div>
-        <div key={restaurants[activeRestaurant.active].id}>
-          <div>{restaurants[activeRestaurant.active].name}</div>
-          <Menu menu={restaurants[activeRestaurant.active].menu} />
-          <Reviews reviews={restaurants[activeRestaurant.active].reviews} />
-        </div>
-      </div>
+      <Tabs
+        tabs={tabs}
+        activeTabIndex={activeRestaurantIndex}
+        onClick={selectRestaurant}
+      />
+      {activeRestaurantIndex != null && (
+        <Restaurant restaurant={restaurants[activeRestaurantIndex]} />
+      )}
     </div>
   );
 };
