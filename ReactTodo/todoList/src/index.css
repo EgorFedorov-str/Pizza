@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  padding-top: 0px;
+  margin: 0 auto;
+  width: 600px;
+  background-color: rgb(237, 242, 245);
+  border-radius: 5px;
+}
+.rm {
+  background-color: rgb(191, 231, 231);
+  border-radius: 2px;
+  border: 0px;
+  color: rgb(202, 177, 177);
+  border:'none';
+  box-shadow: 1px 2px 3px rgb(195, 155, 231);
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.header {
+  text-align: center;
+}
+
+.addTodo {
+  margin: 0 auto 0 auto;
+  width: 40%;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.changeTodoList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.changeTodoList > div {
+  margin: 0 5px;
+}
+
+.button-add {
+  margin-left: 10px;
+}
